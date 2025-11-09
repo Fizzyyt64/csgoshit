@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Map Downloads — csgoshit</title>
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <header>
+    <h1>Map Downloads</h1>
+    <p class="subtitle">Download .bsp map files from this repository</p>
+  </header>
+
+  <main>
+    <section class="controls">
+      <input id="search" placeholder="Search maps by name..." />
+    </section>
+
+    <section id="maps" class="maps"></section>
+
+    <section class="instructions">
+      <h2>How to add maps</h2>
+      <ol>
+        <li>Upload your .bsp files to the <code>/maps</code> folder in this repository.</li>
+        <li>Add an entry to <code>docs/maps.json</code> with name, file, and optional description/size.</li>
+        <li>Enable GitHub Pages from the repository settings and select the <code>/docs</code> folder (if not already enabled).</li>
+      </ol>
+    </section>
+  </main>
+
+  <footer>
+    <small>Hosted from the <code>docs/</code> folder of Fizzyyt64/csgoshit. Raw downloads served from raw.githubusercontent.com.</small>
+  </footer>
+
+  <script src="assets/app.js"></script>
+</body>
+</html>
