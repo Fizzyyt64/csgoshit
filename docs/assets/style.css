@@ -19,4 +19,18 @@ main{max-width:980px;margin:24px auto;padding:0 16px}
 .instructions{margin-top:28px;color:var(--muted);font-size:14px}
 footer{max-width:980px;margin:26px auto 60px auto;padding:0 16px;color:var(--muted);font-size:12px;text-align:center}
 
+/* Credit text: very small and faint */
+.credit{
+  font-size:10px;
+  color: rgba(230,238,246,0.06); /* very faint on dark background */
+  margin-top:8px;
+  letter-spacing:0.2px;
+  transition:opacity .2s;
+}
+
+/* optional: slightly more visible on hover for accessibility */
+.credit:hover{
+  color: rgba(230,238,246,0.12);
+}
+
 @media (max-width:520px){header h1{font-size:20px}}
