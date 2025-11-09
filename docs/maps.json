@@ -1,8 +1,8 @@
 [
   {
-    "name": "de_sample",
-    "file": "de_sample.bsp",
-    "description": "Placeholder sample map. Replace with a real .bsp file in /maps.",
-    "size": "-"
+    "name": "cs_skyrail",
+    "file": "cs_skyrail.bsp",
+    "description": "Skyrail (007 Nightfire Remake)",
+    "size": "68"
   }
 ]
